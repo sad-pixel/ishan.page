@@ -10,15 +10,31 @@
 [[social]]
 identifier = "github"
 name = "GitHub"
-url = "https://github.com/CaiJimmy/hugo-theme-stack"
+url = "https://github.com/sad-pixel"
 
 [social.params]
 icon = "brand-github"
 
 [[social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com"
+identifier = "linkedin"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/ishan-das-sharma/"
 
 [social.params]
-icon = "brand-twitter"
+icon = "brand-linkedin"
+
+[[social]]
+identifier = "email"
+name = "Email"
+url = "mailto:ishan.dassharma1@gmail.com"
+
+[social.params]
+icon = "mail"
+
+[[social]]
+identifier = "mastodon"
+name = "Mastodon"
+url = "https://hachyderm.io/@ishands"
+
+[social.params]
+icon = "brand-mastodon"
