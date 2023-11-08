@@ -1,4 +1,5 @@
 ---
+slug: 2023-07-02-well-known
 title: The secret life of .well-known
 date: 2023-07-02
 tags: [web, standards, fediverse, featured]

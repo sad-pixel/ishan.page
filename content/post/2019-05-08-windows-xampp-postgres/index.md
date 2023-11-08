@@ -4,6 +4,7 @@ tags: [postgres, windows]
 date: 2019-05-08
 categories:
 - Snippets
+slug: 2019-05-08-windows-xampp-postgres
 ---
 
 

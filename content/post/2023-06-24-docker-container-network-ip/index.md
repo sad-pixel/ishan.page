@@ -1,6 +1,7 @@
 ---
 title: Get Docker Containers running in a particular network
 tags: [docker, networking]
+slug: 2023-06-24-docker-container-network-ip
 date: 2023-06-24
 categories:
 - Snippets

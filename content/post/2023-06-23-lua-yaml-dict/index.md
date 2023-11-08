@@ -2,6 +2,7 @@
 title: Parsing single level yaml files into a Lua table
 tags: [lua, yaml]
 date: 2023-06-23
+slug: 2023-06-23-lua-yaml-dict
 categories:
 - Snippets
 ---

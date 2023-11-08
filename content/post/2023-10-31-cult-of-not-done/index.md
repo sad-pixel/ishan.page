@@ -2,6 +2,7 @@
 title: The Cult of Not Done Manifesto
 tags: [humor, satire]
 date: 2023-10-31
+slug: 2023-10-31-cult-of-not-done
 ---
 
 > To all those who ask why I haven't been putting more posts out, this is for you
@@ -25,4 +26,3 @@ I present to you a manifesto of not done. This was inspired by [Kio Stark and Br
 11. Destruction is a force of progress. Start over often with increased scope to make your creation perfect.
 12. If you have an idea, never publish it on the internet, then it will be stolen from you.
 13. In Progress is the engine of more.
- 

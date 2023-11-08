@@ -1,4 +1,5 @@
 ---
+slug: 2023-07-09-programming-with-the-grain
 title: Programming "with the grain"
 tags: [programming, go, cpp, computer-science,deep-dive,featured]
 summary: Every system has a hidden, "natural" structure of how data flows through it. Learn how to find it.

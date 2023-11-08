@@ -2,6 +2,7 @@
 title: Dear past me, use the flags
 date: 2023-07-26
 tags: [programming]
+slug: 2023-07-26-use-the-flags-luke
 ---
 
 Dear past me,

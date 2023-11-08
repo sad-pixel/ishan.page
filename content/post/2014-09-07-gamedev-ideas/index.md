@@ -3,6 +3,7 @@ title: Gamedev Ideas
 tags: [gamedev, personal, legacy
 ]
 date: 2014-09-07
+slug: 2014-09-07-gamedev-ideas
 categories:
 - Legacy
 ---

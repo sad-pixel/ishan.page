@@ -3,6 +3,7 @@ title: Scraping the MPB website - A Postmortem
 tags: [python, scraping, postmortem, legacy
 ]
 date: 2014-10-09
+slug: 2014-10-09-mpb-scraper-postmortem
 categories:
 - Legacy
 ---

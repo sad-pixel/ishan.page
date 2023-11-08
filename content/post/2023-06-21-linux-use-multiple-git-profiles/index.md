@@ -4,6 +4,7 @@ tags: [linux, git, github, ssh]
 date: 2023-06-21
 categories:
 - Snippets
+slug: 2023-06-21-linux-use-multiple-git-profiles
 ---
 
 Create a file `~/.ssh/config`

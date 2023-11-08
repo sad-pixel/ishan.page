@@ -1,4 +1,5 @@
 ---
+slug: 2023-07-01-linux-ip-geolocation-list
 title: Get frequency distribution of countries in a list of newline separated IP addresses in Linux
 tags: [linux, xargs, sed, geoip, statistics]
 date: 2023-07-01

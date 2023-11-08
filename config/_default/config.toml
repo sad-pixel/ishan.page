@@ -2,7 +2,7 @@
 baseurl = "https://ishan.page/"
 languageCode = "en-us"
 paginate = 8
-#theme = "hugo-theme-stack"
+theme = "hugo-theme-stack"
 title = "Ishan Das Sharma"
 
 # Theme i18n support

@@ -4,6 +4,7 @@ tags: [facebook, python]
 date: 2023-06-20
 categories:
 - Snippets
+slug: 2023-06-20-facebook-graph-leads-between
 ---
 
 Given two unix timestamps, this Python script fetches all the leads received by a particular Facebook Lead Ads form using the Facebook v14 Graph API.
@@ -51,3 +52,4 @@ def do_query(form_id, gt, lt):
 if __name__ == '__main__':
     do_query(FORM_ID, FROM_TIMESTAMP, UPTO_TIMESTAMP)
 ```
+

@@ -1,4 +1,5 @@
 ---
+slug: 2023-07-05-natural-selection-misconceptions
 title: On "Natural Selection" and "Survival of the fittest"
 tags: [misconceptions, philosophy, language]
 date: 2023-07-05

@@ -4,6 +4,7 @@ tags: [discord, linux, systemd]
 date: 2021-10-15
 categories:
 - Snippets
+slug: 2021-10-15-systemd-discord-notify
 ---
 
 Add the following lines in your service definition file (`/etc/systemd/system/service_xyz.service`) in the `[Service]` section:

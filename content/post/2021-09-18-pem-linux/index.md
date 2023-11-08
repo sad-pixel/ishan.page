@@ -4,6 +4,7 @@ tags: [linux, ssh]
 date: 2021-09-18
 categories:
 - Snippets
+slug: 2021-09-18-pem-linux
 ---
 Quickly and easily generate a key pair for passwordless connection. Also works perfect as git deploy keys!
 

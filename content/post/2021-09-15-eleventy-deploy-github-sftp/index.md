@@ -4,6 +4,7 @@ tags: [github, deployment, ssh, eleventy]
 date: 2021-09-15
 categories:
 - Snippets
+slug: 2021-09-15-eleventy-deploy-github-sftp
 ---
 
 1. Navigate to Repository > Settings > Secrets > New Repository Secret

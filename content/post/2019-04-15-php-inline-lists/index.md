@@ -2,6 +2,7 @@
 title: 3 ways to render inline lists in PHP
 tags: [php, web]
 date: 2019-04-15
+slug: 2019-04-15-php-inline-lists
 categories:
 - Snippets
 ---

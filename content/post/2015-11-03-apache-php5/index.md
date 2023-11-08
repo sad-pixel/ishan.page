@@ -3,6 +3,7 @@ title: How to install and optimize Apache with mpm_event, php5-fpm and MariaDB
 tags: [linux, sysadmin, legacy
 ]
 date: 2015-11-03
+slug: 2015-11-03-apache-php5
 categories:
 - Legacy
 ---

@@ -2,6 +2,7 @@
 title: Fix WSL time drift
 tags: [windows, wsl]
 date: 2023-03-08
+slug: 2023-03-08-wsl-time-drift
 categories:
 - Snippets
 ---

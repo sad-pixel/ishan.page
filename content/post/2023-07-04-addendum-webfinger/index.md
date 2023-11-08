@@ -1,4 +1,5 @@
 ---
+slug: 2023-07-04-addendum-webfinger
 title: "Addendum: What's a Webfinger?"
 date: 2023-07-04
 tags: [web, fediverse, standards]

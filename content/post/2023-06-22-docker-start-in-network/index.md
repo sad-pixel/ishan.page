@@ -4,6 +4,7 @@ tags: [docker, networking]
 date: 2023-06-22
 categories:
 - Snippets
+slug: 2023-06-22-docker-start-in-network
 ---
 
 The following script can be used to start a container inside a particular network.

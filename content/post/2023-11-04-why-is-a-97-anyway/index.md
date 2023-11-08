@@ -33,3 +33,4 @@ https://studyalgorithms.com/string/easiest-way-to-change-case-of-alphabets/
 
 https://www.techiedelight.com/bit-hacks-part-4-playing-letters-english-alphabet/
 
+slug: 2023-11-04-why-is-a-97-anyway

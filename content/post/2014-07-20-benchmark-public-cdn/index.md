@@ -2,6 +2,7 @@
 title: Benchmark public javascipt CDNs on a VPS
 tags: [cdn, benchmark, networking, linux]
 date: 2014-07-20
+slug: 2014-07-20-benchmark-public-cdn
 categories:
 - Legacy
 ---

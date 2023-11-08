@@ -2,6 +2,7 @@
 title: Hello World
 date: 2023-06-20
 tags: [meta, personal, web]
+slug: 2023-06-20-hello-world
 # weight: 1
 ---
 

@@ -2,6 +2,7 @@
 title: Analgesia, Pain, and the Shape of The Brain
 tags: [psychology, pain, brain, placebo, buddhism]
 date: 2023-07-15
+slug: 2023-07-15-analgesia-pain-brain
 ---
 
 I was returning from Saturday brunch with my friend a month or so ago. We took the metro back from the restaurant, and it was quite crowded. While disembarking from the metro, my leg slipped (or maybe I was pushed, I don't know), and got lodged in the gap between the train and the platform. In my vigorous attempts to free myself, I twisted one knee and scraped the other. 

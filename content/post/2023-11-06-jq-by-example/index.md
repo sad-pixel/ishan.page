@@ -1,8 +1,9 @@
 ---
 title: The Ultimate Interactive JQ Guide
+slug: 2023-11-06-jq-by-example
 description: Learn how to search, query, and modify JSON data with 25 interactive jq examples and explainations
 tags: [jq, featured]
-date: 2023-09-04
+date: 2023-11-06
 layout: "jq_post"
 weight: 1
 image: "numbers.jpg"
@@ -11,6 +12,10 @@ categories:
 ---
 
 > Cover Photo by [Pixabay](https://www.pexels.com/photo/airport-bank-board-business-534216/)
+
+<noscript>
+This article requires JavaScript. Sorry...
+</noscript>
 
 Has this ever happened to you?
 
@@ -285,7 +290,7 @@ echo '[{"category": "A", "value": 10}, {"category": "B", "value": 20}, {"categor
 ```
 </noscript>
 
-### Complex Filtering and Summation
+### Filtering after Aggregation
 
 <jq-view name="example25"></jq-view>
 
@@ -338,7 +343,9 @@ echo '[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]' | jq 'group_by(. / 5 
 </noscript>
 
 ## Other Common Operations
+These are some other common operations I frequently find myself doing every day, but I couldn't think of a better way to categorize them.
 ### Extracting Values Based on Multiple Conditions
+We can combine multiple conditions in a `select` call. The `test()` function is used to check if the passed string contains one of the substrings or not.
 <jq-view name="example15"></jq-view>
 
 <noscript>
@@ -349,6 +356,7 @@ echo '[{"name": "Alice", "age": 30}, {"name": "Bob", "age": 25}, {"name": "John"
 </noscript>
 
 ### Formatting Unix Timestamps
+Various tools emit Unix Timestamps, and we can use the handy `strftime` function to format it so it's easier to understand at a glace.
 <jq-view name="example16"></jq-view>
 
 <noscript>
@@ -359,7 +367,7 @@ echo '{"timestamp": 1630768200}' | jq '.timestamp | strftime("%Y-%m-%d %H:%M:%S"
 </noscript>
 
 
-### Enumerating by Key and Value
+### Enumerating by Top Level Key and Value
 <jq-view name="example19"></jq-view>
 
 <noscript>
@@ -375,6 +383,7 @@ Whew! That's been a long article 😅 If you're still here, then I appreciate yo
 
 I hope you've learned something new, and that you'll be able to quickly identify use cases for `jq` in your current workflow and apply your learnings there. 
 
+
 ### How Does This Article Work?
 
 - I have used web components to create a custom component `<jq-view>`. 
@@ -383,4 +392,8 @@ I hope you've learned something new, and that you'll be able to quickly identify
 - I have used AlpineJs to make the examples interactive. When the button is clicked, it sends an event to a listener, which makes it run `jq` and then update the output.
 - Since I am not good at front-end, this was a substantial learning experience for me.
 
-### Resources
+### Get In Touch
+If you have any suggestions on how this may be improved, errors that I might have made, or you just want to discuss any other topic, please feel free to [email me](mailto:ishan.dassharma1@gmail.com). I always love to hear from you.
+
+### Extra Resources
+[JQ Manual](https://jqlang.github.io/jq/manual/)
