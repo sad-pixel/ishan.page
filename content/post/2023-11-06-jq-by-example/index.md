@@ -4,6 +4,7 @@ slug: 2023-11-06-jq-by-example
 description: Learn how to search, query, and modify JSON data with 25 interactive jq examples and explainations
 tags: [jq, featured]
 date: 2023-11-06
+lastmod: 2023-11-29
 layout: "jq_post"
 weight: 1
 image: "numbers.jpg"
@@ -179,7 +180,7 @@ We can use `..` to recursively descend through a tree of an object.
 <noscript>
 ```bash
 echo '{"data": {"value": 42, "nested": {"value": 24}}}' | jq '.. | .value?'
-# Output: 42, 24
+# Output: null, 42, 24
 ```
 </noscript>
 
@@ -194,7 +195,16 @@ echo '{"data": [{"values": [1, 2, 3]}, {"values": [4, 5, 6]}]}' | jq '.data[].va
 </noscript>
 
 ### Flattening Nested JSON Objects
-Often, we just want all the key-values, and flattening the object may be the most convenient way to go:
+Often, we just want all the key-values, and flattening the object may be the most convenient way to go. 
+
+This is an example where the operation we want to do is fairly straightforward, but the program looks way too scary. 
+
+Let's try to break it down:
+* It takes a JSON input and applies the paths function, which returns an array of all possible paths to the values in the JSON object. Each path is itself an array of keys or indices that can be used to access the value. For example, if the input is `{"a": {"b": 1, "c": [2, 3]}}`, then the paths function will return `[[], ["a"], ["a", "b"], ["a", "c"], ["a", "c", 0], ["a", "c", 1]]`.
+* The query then assigns this array to a variable `$p` using the `as` keyword, which can be used to store intermediate results for later use.
+* The query then applies the select function, which filters the array based on a condition. The condition is `getpath($p) | type != "object"`, which means that only the paths that lead to values that are not objects are selected. The `getpath` function takes a path and returns the value at that path in the JSON input. The `type` function returns the type of the value, such as `“string”`, `“number”`, `“array”`, or `“object”`. For example, `getpath(["a", "b"]) | type` will return `“number”` for the input `{"a": {"b": 1, "c": [2, 3]}}`.
+* The query then applies another pipe, which passes the filtered array to the next filter. The next filter is `($p | join(".")) + " = " + (getpath($p) | tostring)`, which constructs a string for each path and its corresponding value. The `join` function takes an array and concatenates its elements with a separator, in this case a dot. The `tostring` function converts any value to a string representation. The `+` operator concatenates strings. For example, `(["a", "b"] | join(".")) + " = " + (getpath(["a", "b"]) | tostring)` will return `“a.b = 1”` for the input `{"a": {"b": 1, "c": [2, 3]}}`.
+* The query then outputs the resulting strings, one per line, to the standard output. 
 
 <jq-view name="example21"></jq-view>
 
@@ -222,7 +232,7 @@ echo '{"data": {"value": 42, "nested": {"value": 24}}}' | jq 'recurse | .value? 
 <noscript>
 ```bash
 echo '{"items": [{"name": "Apple", "price": 1}, {"name": "Banana", "price": 0.5}]}' | jq '.items | map({(.name): (.price * 2)}) | add'
-# Output: {"Apple": 2, "Banana": 1.0}
+# Output: {"Apple": 2, "Banana": 1}
 ```
 </noscript>
 
@@ -233,7 +243,7 @@ The `walk()` function provides a convenient way to traverse a nested object and 
 
 <noscript>
 ```bash
-echo '{"data": {"values": [1, 2, 3], "nested": {"values": [4, 5, 6]}}}' | jq 'recurse(.values) |= map(. * 2)'
+echo '{"data": {"values": [1, 2, 3], "nested": {"values": [4, 5, 6]}}}' | jq 'walk(if type == "number" then . * 2 else . end)'
 # Output: {"data":{"values":[2,4,6],"nested":{"values":[8,10,12]}}}
 ```
 </noscript>
@@ -362,7 +372,7 @@ Various tools emit Unix Timestamps, and we can use the handy `strftime` function
 <noscript>
 ```bash
 echo '{"timestamp": 1630768200}' | jq '.timestamp | strftime("%Y-%m-%d %H:%M:%S")'
-# Output: "2021-09-04 12:30:00"
+# Output: "2021-09-04 15:10:00"
 ```
 </noscript>
 
@@ -396,4 +406,13 @@ I hope you've learned something new, and that you'll be able to quickly identify
 If you have any suggestions on how this may be improved, errors that I might have made, or you just want to discuss any other topic, please feel free to [email me](mailto:ishan.dassharma1@gmail.com). I always love to hear from you.
 
 ### Extra Resources
-[JQ Manual](https://jqlang.github.io/jq/manual/)
+- [JQ Manual](https://jqlang.github.io/jq/manual/): The official JQ manual. Covers everything, but a bit difficult to digest.
+- [Learn JQ the Hard Way](https://zwischenzugs.com/2023/06/27/learn-jq-the-hard-way-part-i-json/): A good series of blog posts covering introductory theoretical aspects of jq.
+- [JSON Wrangling with jq](https://sandbox.bio/tutorials?id=jq-intro): Another interactive series on jq that dives into more detail on the theoretical aspects.
+
+## Changelog
+- 2023-11-29
+  - Add a "Reset" button
+  - Fixed some examples that were incorrect in the non javascript version of this page
+  - Added some more resources
+  - Added explaination for [Flattening Nested JSON Objects](#flattening-nested-json-objects)
