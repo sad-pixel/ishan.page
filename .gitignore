@@ -1,2 +1,4 @@
 public
 resources
+build_and_deploy.sh
+.hugo_build.lock

@@ -1,11 +1,11 @@
 # Configure main menu and social menu
-[[main]]
-identifier = "newsletter"
-name = "Newsletter"
-url = "https://buttondown.email/ishan.page"
-[main.params]
-icon = "mail"
-newtab = true
+#[[main]]
+#identifier = "newsletter"
+#name = "Newsletter"
+#url = "https://buttondown.email/ishan.page"
+#[main.params]
+#icon = "mail"
+#newtab = true
 
 [[social]]
 identifier = "github"

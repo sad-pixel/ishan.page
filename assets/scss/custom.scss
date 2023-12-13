@@ -1,3 +1,26 @@
 /*
     You can add your own custom styles here.
 */
+
+.embeddable-buttondown-form input {
+    background: var(--accent-color);
+    box-shadow: var(--shadow-l2);
+    border-radius: var(--tag-border-radius);
+    padding: 8px 20px;
+    color: var(--accent-color-text);
+    font-size: 1.4rem;
+    transition: all .3s ease;
+    border: 0;
+}
+
+.embeddable-buttondown-form input.bd-text:focus {
+    background: var(--accent-color-darker);
+}
+
+.embeddable-buttondown-form input[type="submit"] {
+    cursor: pointer;
+}
+
+.embeddable-buttondown-form input[type="submit"]:hover {
+    background: var(--accent-color-darker);
+}

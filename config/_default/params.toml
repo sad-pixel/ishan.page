@@ -6,7 +6,7 @@ favicon = "/favicon.png"
 
 [footer]
 since = 2013
-customText = ""
+customText = "More cool websites: <a href='https://hotlinewebring.club/ishanpage/previous'>Prev</a> | <a href='https://hotlinewebring.club/'>Hotline Webring</a> | <a href='https://hotlinewebring.club/ishanpage/next'>Next</a>"
 
 [dateFormat]
 published = "Jan 02, 2006"
@@ -33,11 +33,11 @@ default = "Licensed under CC BY-NC-SA 4.0"
 [[widgets.homepage]]
 type = "search"
 
-[[widgets.homepage]]
-type = "archives"
+#[[widgets.homepage]]
+#type = "archives"
 
-[widgets.homepage.params]
-limit = 5
+#[widgets.homepage.params]
+#limit = 5
 
 [[widgets.homepage]]
 type = "categories"

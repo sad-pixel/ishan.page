@@ -41,6 +41,9 @@ It's more of a secret keyboard rhythm that syncs perfectly with the code’s hea
 ### How do you manage to stay sane during those long debugging sessions?
 Insanity is relative! But seriously, music, memes, and the occasional staring contest with the screen keep me going.
 
+### How can I subscribe to updates from your site?
+You can subscribe to updates [via RSS](/feeds/blog/) or you could subscribe to the [newsletter](/newsletter/) instead.
+
 ### What did you use to make this website?
 This website is made with Hugo, using the excellent [Stack](https://stack.jimmycai.com) theme with my own [customizations](https://github.com/sad-pixel/hugo-theme-stack/).
 
@@ -61,3 +64,5 @@ I don't necessarily hate SPAs - I just believe there is a right and a wrong time
 
 ### Why do you hate Javascript?
 Ecosystem catch-up overload. I don't hate Javascript - but it's hard to keep up with all the happenings.
+
+## Elsewhere
