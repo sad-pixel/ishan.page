@@ -1,6 +1,7 @@
 ---
 title: "On Machine Learning Considered One of The Dark Arts"
 date: 2023-12-11
+draft: true
 ---
 
 > "Alchemy is the art of liberating parts of the Cosmos from temporal existence and achieving perfection which, for metals is gold, and for man, longevity, then immortality and, finally, redemption." - Paracelsus, 16th century Swiss physician and alchemist.
