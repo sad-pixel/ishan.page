@@ -6,7 +6,7 @@ favicon = "/favicon.png"
 
 [footer]
 since = 2013
-customText = "More cool websites: <a href='https://hotlinewebring.club/ishanpage/previous'>Prev</a> | <a href='https://hotlinewebring.club/'>Hotline Webring</a> | <a href='https://hotlinewebring.club/ishanpage/next'>Next</a>"
+customText = "All content is licensed under CC BY-NC-SA 4.0. Copying is an act of love - please copy! <br> More cool websites: <a href='https://hotlinewebring.club/ishanpage/previous'>Prev</a> | <a href='https://hotlinewebring.club/'>Hotline Webring</a> | <a href='https://hotlinewebring.club/ishanpage/next'>Next</a>"
 
 [dateFormat]
 published = "Jan 02, 2006"
