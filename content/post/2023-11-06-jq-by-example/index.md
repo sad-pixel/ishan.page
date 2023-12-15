@@ -1,7 +1,7 @@
 ---
 title: The Ultimate Interactive JQ Guide
 slug: 2023-11-06-jq-by-example
-description: Learn how to search, query, and modify JSON data with 25 interactive jq examples and explainations
+description: Learn how to search, query, and modify JSON data with 25 interactive jq examples and explanations
 tags: [jq, featured]
 date: 2023-11-06
 lastmod: 2023-11-29
@@ -415,4 +415,4 @@ If you have any suggestions on how this may be improved, errors that I might hav
   - Add a "Reset" button
   - Fixed some examples that were incorrect in the non javascript version of this page
   - Added some more resources
-  - Added explaination for [Flattening Nested JSON Objects](#flattening-nested-json-objects)
+  - Added explanation for [Flattening Nested JSON Objects](#flattening-nested-json-objects)
