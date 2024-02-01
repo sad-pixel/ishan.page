@@ -22,6 +22,15 @@ Has this ever happened to you?
 
 You've just received a massive JSON file that looks like it was designed to confuse you. Or maybe you entered a command, and you got so much JSON that it looks incomprehensible. 
 
+> **Important**: Level up your `jq` skills with this accompanying **[FREE practical project on DataWars](https://app.datawars.io/project/beb98f1e-d609-4132-a5b7-ebec0484bc2e?ref=ishan)** — enhance your skills through real-world challenges!
+>
+> I've partnered with [DataWars](https://www.datawars.io?ref=ishan) to include **Hands On Practical Projects** that complement this `jq` guide, designed to deepen your understanding and enhance your skills in a real-world setting.
+>
+> The first project, **[Pokemon Data Analysis](https://app.datawars.io/project/beb98f1e-d609-4132-a5b7-ebec0484bc2e?ref=ishan)** is available now.
+>
+> [Click Here to Start Practicing for FREE and LEVEL UP your jq skills](https://app.datawars.io/project/beb98f1e-d609-4132-a5b7-ebec0484bc2e?ref=ishan)
+
+
 The data you need is buried inside, and you're dreading the hours it'll take to extract and clean it up.
 
 I've been there. I've `grep`ped my way through JSON and written ad-hoc Python scripts to process it for me. 
@@ -172,6 +181,14 @@ echo '{"name": "Alice", "age": 30}' | jq '{name: .name, age: (.age + 5)}'
 > [Photo by cottonbro studio](https://www.pexels.com/photo/two-yellow-and-red-ceramic-owl-figurines-4966180/)
 
 JSON is very commonly used to store nested objects, and we often need to traverse or manipulate such structures. `jq` gives us all the tools we need to make it easy:
+
+> **Important**: Itching to practice what you've learned? Check out this **[FREE practical project on DataWars](https://app.datawars.io/project/beb98f1e-d609-4132-a5b7-ebec0484bc2e?ref=ishan)** 
+>
+> I've partnered with [DataWars](https://www.datawars.io?ref=ishan) to include **Hands On Practical Projects** that complement this `jq` guide, designed to deepen your understanding and enhance your skills in a real-world setting.
+>
+> [Click Here to Start Practicing for FREE right now](https://app.datawars.io/project/beb98f1e-d609-4132-a5b7-ebec0484bc2e?ref=ishan)
+
+
 ### Recursive Descent
 We can use `..` to recursively descend through a tree of an object.
 
@@ -392,6 +409,9 @@ echo '{"a": 1, "b": 2, "c": 3}' | jq 'to_entries[] | "\(.key) is \(.value)"'
 Whew! That's been a long article 😅 If you're still here, then I appreciate you staying till the very end. 
 
 I hope you've learned something new, and that you'll be able to quickly identify use cases for `jq` in your current workflow and apply your learnings there. 
+
+> **Important**: Enjoying this article so far? Check out this **[FREE practical project on DataWars](https://app.datawars.io/project/beb98f1e-d609-4132-a5b7-ebec0484bc2e?ref=ishan)** 
+>
 
 
 ### How Does This Article Work?
