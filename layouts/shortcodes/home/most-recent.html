@@ -1,0 +1,11 @@
+{{ $posts := where .Site.RegularPages "Type" "post" }}
+{{ $recentPosts := first 3 (sort $posts "Date" "desc") }}
+
+
+{{ range $recentPosts }}
+<p>
+    <a href="{{ .Permalink }}">{{ .Title }}</a> &ndash;
+    <span>{{ .Date.Format "January 2, 2006" }}</span> <br>
+    {{ if .Description }} {{ .Description }} {{ end }}
+</p>
+{{ end }}

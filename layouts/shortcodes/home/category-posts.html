@@ -1,0 +1,13 @@
+{{ $category := .Get "category" }} <!-- Get the category from the shortcode parameter -->
+{{ $posts := where .Site.RegularPages "Type" "post" }} <!-- Filter only posts -->
+{{ $filteredPosts := where $posts "Params.categories" "intersect" (slice $category) }} <!-- Filter posts by the specified category -->
+{{ $sortedPosts := $filteredPosts.ByParam "weight" }} <!-- Sort the filtered posts by weight -->
+
+<!-- Now, we limit the output to the top 3 weighted posts -->
+<ol>
+    {{ range first 10 $sortedPosts }}
+    <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+</ol>

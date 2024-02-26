@@ -26,7 +26,7 @@ icon = "brand-linkedin"
 [[social]]
 identifier = "email"
 name = "Email"
-url = "mailto:ishan.dassharma1@gmail.com"
+url = "mailto:hello@ishan.page"
 
 [social.params]
 icon = "mail"

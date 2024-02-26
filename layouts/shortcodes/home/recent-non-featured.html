@@ -1,0 +1,9 @@
+{{ $posts := where .Site.RegularPages "Type" "post" }} <!-- Filter only posts -->
+{{ $filteredPosts := where $posts "Params.categories" "not in" (slice "featured-articles") }} <!-- Filter posts by the specified category -->
+{{ $sortedPosts := $filteredPosts.ByParam "weight" }} <!-- Sort the filtered posts by weight -->
+<!-- Now, we limit the output to the top 3 weighted posts -->
+{{ range $sortedPosts }}
+<p>
+    <a href="{{ .Permalink }}">{{ .Title }}</a> <br> {{ if .Description }} {{ .Description }} {{ else }} {{ .Summary }} {{ end }}
+</p>
+{{ end }}
