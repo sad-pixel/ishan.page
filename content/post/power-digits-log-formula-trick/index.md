@@ -19,7 +19,7 @@ I found [this discussion](https://math.stackexchange.com/questions/1693073/how-m
 
 > A general formula for the number of digits of any power of 2 can be found using the value of the base-10 logarithm of 2.   
 > 
-> The number of digits in 2k is   
+> The number of digits in $2^k$ is   
 > $1 + \lfloor k \cdot \log_{10}(2) \rfloor$  
 
 The trick uses a fundamental property of logarithms and shows how they relate to the scale of numbers in different bases, particularly base 10 (since we're interested in the number of digits). Let's try to break it down:
@@ -82,3 +82,9 @@ print(mismatches[:1])
 ```
 
 This verification code loops over $k$ from 1 to 500. Since there is nothing in the mismatches array, it shows that the formula $1 + \lfloor k \cdot \log_{10}(2) \rfloor$ correctly gives the number of digits in $2^k$ for every value of \$k$ in this range. 
+
+The trick isn't limited just to powers of 2 - you can use any number in the log. 
+
+Therefore, a more general formula for finding the number of digits in $x^k$ would be:   
+$1 + \lfloor k \cdot \log_{10}(x) \rfloor$
+
