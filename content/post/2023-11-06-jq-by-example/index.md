@@ -423,7 +423,7 @@ I hope you've learned something new, and that you'll be able to quickly identify
 - Since I am not good at front-end, this was a substantial learning experience for me.
 
 ### Get In Touch
-If you have any suggestions on how this may be improved, errors that I might have made, or you just want to discuss any other topic, please feel free to [email me](mailto:ishan.dassharma1@gmail.com). I always love to hear from you.
+If you have any suggestions on how this may be improved, errors that I might have made, or you just want to discuss any other topic, please feel free to [email me](mailto:hello@ishan.page). I always love to hear from you.
 
 ### Extra Resources
 - [JQ Manual](https://jqlang.github.io/jq/manual/): The official JQ manual. Covers everything, but a bit difficult to digest.
