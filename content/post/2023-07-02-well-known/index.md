@@ -3,7 +3,7 @@ slug: 2023-07-02-well-known
 title: The secret life of .well-known
 date: 2023-07-02
 tags: [web, standards, fediverse, featured]
-summary: Find out how the humble .well-known directory is actually chock-full of bonuses that will make your web development life easier.
+description: "Find out how the humble .well-known directory is actually chock-full of bonuses that will make your web development life easier."
 categories:
 - featured-articles
 ---
