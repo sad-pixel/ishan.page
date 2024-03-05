@@ -2,9 +2,13 @@
 title: "Read This Next: Using AI For Recommending Posts On My Blog"
 date: 2024-03-03
 slug: read-this-next-embeddings-llm-rag
+image: signs.jpg
 tags: ["programming", "llm", "embeddings", "meta"]
 description: How I built a post recommendation feature for my blog using text embeddings, GPT-4 and ChromaDB with LangChain
 ---
+
+> Featured Photo by <a href="https://unsplash.com/@soymeraki?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Javier Allegue Barros</a>.
+  
 
 Imagine landing on a blog where every "Read This Next" suggestion feels like it was handpicked just for you. 
 
