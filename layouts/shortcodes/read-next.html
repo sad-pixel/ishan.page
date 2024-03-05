@@ -1,0 +1,15 @@
+{{ $dataFile := "next.json" }}
+{{ range .Page.Resources.Match $dataFile }}
+{{ $data := .Content | transform.Unmarshal }}
+# Read Next
+{{ range $data.read_next }}
+{{ $page := site.GetPage .slug }}
+{{ if $page }}
+- [{{ $page.Title }}]({{ $page.RelPermalink }})  
+    {{ .why | markdownify }}
+{{ else }}
+{{/* Handle the case where the page is not found */}}
+{{ printf "Recommended reading not found for slug or filename: '%s'" .slug }}
+{{ end }}
+{{ end }}
+{{ end }}
