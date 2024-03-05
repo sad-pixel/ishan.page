@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2023-07-02-well-known",
+            "why": "Unravel the secrets of the web's hidden directories and discover how they power up your favorite online spaces, from secure email setups to finding your next favorite fediverse platform."
+        },
+        {
+            "slug": "post/read-this-next-embeddings-llm-rag",
+            "why": "Exploring how Webfinger revolutionizes user discovery in the fediverse, you'll be intrigued by how AI-driven recommendations can similarly transform your content exploration with smarter, more personalized suggestions."
+        },
+        {
+            "slug": "post/2023-06-20-facebook-graph-leads-between",
+            "why": "Explore how to harness the power of APIs further by learning to extract valuable data from Facebook Lead Ads, just like you discovered the potential of Webfinger for user discovery across platforms."
+        }
+    ]
+}

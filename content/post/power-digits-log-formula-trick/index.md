@@ -88,3 +88,4 @@ The trick isn't limited just to powers of 2 - you can use any number in the log.
 Therefore, a more general formula for finding the number of digits in $x^k$ would be:   
 $1 + \lfloor k \cdot \log_{10}(x) \rfloor$
 
+{{% read-next %}}

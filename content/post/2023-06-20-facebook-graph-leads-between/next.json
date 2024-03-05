@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2014-10-09-mpb-scraper-postmortem",
+            "why": "Unlock the secrets of data extraction with a real-world tale of triumph and trial, as you explore how overcoming challenges in web scraping can sharpen your coding skills and strategy."
+        },
+        {
+            "slug": "post/power-digits-log-formula-trick",
+            "why": "Unlock the power of Python further by exploring how a simple mathematical trick can enhance your coding toolkit, especially if you enjoyed the practical application of Python in fetching data from Facebook's API."
+        },
+        {
+            "slug": "post/2021-10-15-systemd-discord-notify",
+            "why": "If you're keen on automating tasks and notifications, learning how to send Discord alerts for your system's service statuses could be a slick addition to your toolkit, especially after tackling Facebook API integrations."
+        }
+    ]
+}

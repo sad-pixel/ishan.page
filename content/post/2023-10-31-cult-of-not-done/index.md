@@ -26,3 +26,5 @@ I present to you a manifesto of not done. This was inspired by [Kio Stark and Br
 11. Destruction is a force of progress. Start over often with increased scope to make your creation perfect.
 12. If you have an idea, never publish it on the internet, then it will be stolen from you.
 13. In Progress is the engine of more.
+
+{{% read-next %}}

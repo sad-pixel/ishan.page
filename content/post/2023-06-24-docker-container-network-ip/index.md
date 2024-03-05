@@ -25,3 +25,5 @@ Pipe the output into `column -t` like so to get a pretty formatted tabular outpu
 ```
 ./network-hosts | column -t
 ```
+
+{{% read-next %}}

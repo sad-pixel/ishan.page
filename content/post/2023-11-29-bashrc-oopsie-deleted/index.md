@@ -82,3 +82,4 @@ To use git and stow for dotfile management, one possible workflow is outlined [h
 It's okay to make mistakes. A fear of messing things up prevents us from playing around to learn. The beauty of learning is in making mistakes. I've deleted my `.bashrc` file before-- it's nothing to be ashamed of!
 
 Have you deleted your `.bashrc` or other important dotfiles before? Do you already have a workflow with Stow? [I'd love to hear about it](mailto:hello@ishan.page)!.
+{{% read-next %}}

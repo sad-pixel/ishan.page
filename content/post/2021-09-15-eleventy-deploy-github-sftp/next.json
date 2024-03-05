@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2023-06-21-linux-use-multiple-git-profiles",
+            "why": "If you're streamlining your Eleventy project with GitHub Actions, mastering how to manage multiple GitHub accounts with unique SSH keys on Linux could further enhance your workflow efficiency and security."
+        },
+        {
+            "slug": "post/2023-12-15-hugo-ipython-jupyter",
+            "why": "If you're all about optimizing your development workflow, just like you streamlined Eleventy deployment with GitHub Actions, you'll appreciate how I leveraged Jupyter notebooks in Hugo to make blogging a breeze."
+        },
+        {
+            "slug": "post/2023-06-20-facebook-graph-leads-between",
+            "why": "After mastering GitHub Actions for your Eleventy project, you might be curious about leveraging APIs to automate other aspects of your digital presence, like fetching leads from Facebook with Python."
+        }
+    ]
+}

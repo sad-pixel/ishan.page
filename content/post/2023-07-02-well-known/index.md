@@ -63,3 +63,5 @@ and of course, let's not forget about [Webfinger](https://webfinger.net/).
 **UPDATE 2023-07-04**: I have published a follow-up - [Addendum: Webfinger](/blog/2023-07-04-addendum-webfinger)
 
 **UPDATE 2023-07-07**: This article was featured in [tldr.tech](https://tldr.tech/tech/2023-07-07), and as of time of writing I have had over 6500 hits on this post. I am overwhelmed and moved by this, and by all the positive comments I have received. I never imagined that my little blog would ever be read by so many people.
+
+{{% read-next %}}

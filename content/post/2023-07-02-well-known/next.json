@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2023-07-04-addendum-webfinger",
+            "why": "Explore how Webfinger seamlessly connects the dots between users across the fediverse, building on the foundational role of the .well-known directory you just learned about."
+        },
+        {
+            "slug": "post/2021-09-15-eleventy-deploy-github-sftp",
+            "why": "Unlock the power of automation for your Eleventy projects with GitHub Actions, streamlining your deployment process and saving you time for more creative coding endeavors."
+        },
+        {
+            "slug": "post/2023-07-01-linux-ip-geolocation-list",
+            "why": "Exploring the nuts and bolts of web technology? This guide on mapping IP addresses to countries using Linux commands could be your next step in understanding the digital world's geography."
+        }
+    ]
+}

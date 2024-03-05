@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2023-12-07-jq-hammer-nails",
+            "why": "After mastering jq through interactive examples, you'll be intrigued by how I creatively used it to generate HTML, pushing the boundaries of conventional tool use and highlighting the value of adaptability in tech."
+        },
+        {
+            "slug": "post/2021-09-18-pem-linux",
+            "why": "After mastering jq for JSON manipulation, learning to create a secure 4096-bit RSA key pair could be your next step in enhancing your data handling and security skills."
+        },
+        {
+            "slug": "post/2023-07-04-addendum-webfinger",
+            "why": "Unlock the secrets of JSON and the fediverse by exploring how Webfinger's API can streamline your data discovery and user profile management, complementing your newfound jq skills."
+        }
+    ]
+}

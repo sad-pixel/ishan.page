@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2023-06-20-hello-world",
+            "why": "If you enjoyed exploring early game development ideas, you'll likely appreciate my journey to rejuvenate my online presence, tackling challenges with a blend of creativity and tech savvy."
+        },
+        {
+            "slug": "post/2014-07-20-benchmark-public-cdn",
+            "why": "Explore how my early fascination with web development evolved into creating a practical tool to enhance your website's performance by choosing the fastest CDN for your needs."
+        },
+        {
+            "slug": "post/2023-07-09-programming-with-the-grain",
+            "why": "After exploring the quirky world of game development, you might appreciate the deeper dive into how understanding the core principles of programming can elevate your projects, just like the nuances of game design did for \"Web Dev Simulator\" and \"Hole Skating.\""
+        }
+    ]
+}

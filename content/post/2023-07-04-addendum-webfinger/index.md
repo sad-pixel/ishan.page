@@ -67,3 +67,5 @@ curl https://hachyderm.io/.well-known/webfinger\?resource\=acct:ishands@hachyder
 ```
 
 While I'm not sure _exactly_ how this is useful, my assumption is that it's useful during federation, and for generic activitypub clients because different Fediverse software maps usernames and profiles differently.
+
+{{% read-next %}}

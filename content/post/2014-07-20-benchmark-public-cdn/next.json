@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2023-12-07-jq-hammer-nails",
+            "why": "Exploring unconventional tools can unlock new potentials in web development, just as I found creative ways to use jq for HTML generation, mirroring how you might innovate with scripts like `jsTest.sh` for CDN benchmarking."
+        },
+        {
+            "slug": "post/2023-06-20-facebook-graph-leads-between",
+            "why": "After mastering CDN performance with bash, you'll find harnessing Facebook's API with Python an exciting next step to broaden your coding toolkit."
+        },
+        {
+            "slug": "post/2023-06-22-docker-start-in-network",
+            "why": "If you're keen on optimizing web development workflows, this script's approach to effortlessly setting up Docker containers could be the next efficiency hack you're looking for."
+        }
+    ]
+}

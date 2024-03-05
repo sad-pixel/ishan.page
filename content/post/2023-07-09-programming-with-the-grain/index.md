@@ -215,3 +215,5 @@ Further quoting yacoset,
 > There's a thousand computer languages because there's a thousand classes of problems we can solve with software. In the 1980s, after the Macintosh debut, a hundred DOS products were ported to the new mouse-driven platform by clubbing the Alto-inspired UI over the head and brute-forcing the keyboard-driven paradigms of PCs into the Mac's visual atmosphere. Most of these were rejected by Apple or the market, and if they came back for a second try they came back because somebody flipped open the spiral-bound HIG and read it sincerely. 
 
 As programmers, I think we should take pride in our craft, and always try to program with the grain of the platform we are on. Many benefits await!
+
+{{% read-next %}}

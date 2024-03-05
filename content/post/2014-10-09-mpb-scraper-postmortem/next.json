@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2023-12-07-jq-hammer-nails",
+            "why": "Explore how I tackled a unique challenge using jq for HTML generation, mirroring the inventive spirit you saw in my data scraping adventure, and highlighting the value of adaptability in tech."
+        },
+        {
+            "slug": "post/2023-06-20-facebook-graph-leads-between",
+            "why": "After tackling the complexities of web scraping, you might be curious about harnessing APIs for data retrieval, offering a smoother path to gather specific online information."
+        },
+        {
+            "slug": "post/2019-05-08-windows-xampp-postgres",
+            "why": "After wrestling with data extraction, you might appreciate the simplicity of setting up a robust local development environment with Postgres and XAMPP to streamline your future projects."
+        }
+    ]
+}

@@ -51,3 +51,5 @@ In this game, your objective is to create holes in the ice, and make other peopl
 
 # The End
 What do you think about these ideas? Want to contribute resources for their development? Want to raze them to the ground? Let me know what you think
+
+{{% read-next %}}

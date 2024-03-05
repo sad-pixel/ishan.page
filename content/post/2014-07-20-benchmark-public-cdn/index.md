@@ -46,3 +46,5 @@ echo "Speed from Microsoft CDN:     $microsoft"
 echo ""
 echo "Thank you for using jsTest.sh"
 ```
+
+{{% read-next %}}

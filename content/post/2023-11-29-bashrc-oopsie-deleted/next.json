@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2023-06-21-linux-use-multiple-git-profiles",
+            "why": "Just like mastering the .bashrc file can streamline your Linux experience, learning to juggle multiple GitHub accounts with ease could be the next step in optimizing your development workflow."
+        },
+        {
+            "slug": "post/2023-12-07-jq-hammer-nails",
+            "why": "Exploring how a JSON tool can creatively craft HTML might just be the unexpected twist you need to rethink the tools in your tech toolbox, much like recovering a deleted .bashrc file taught resilience and adaptability."
+        },
+        {
+            "slug": "post/2023-10-31-cult-of-not-done",
+            "why": "Embrace the beauty of imperfection and continuous learning, just like when you're tweaking your .bashrc file, with the \"Cult of Not Done Manifesto\" that celebrates the journey of endless improvement and the valuable lessons in every mistake."
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2019-05-08-windows-xampp-postgres",
+            "why": "After mastering LAMP stack optimizations for Linux, you might be intrigued by the versatility of integrating Postgres with XAMPP on Windows, expanding your development environment capabilities."
+        },
+        {
+            "slug": "post/2019-04-15-php-inline-lists",
+            "why": "After mastering the art of optimizing your LAMP stack for peak performance, you'll appreciate the finesse of using PHP to seamlessly render inline lists, a skill that complements your server optimization efforts by enhancing your web applications' efficiency and user experience."
+        },
+        {
+            "slug": "post/2023-11-29-bashrc-oopsie-deleted",
+            "why": "After mastering the art of optimizing your LAMP stack, learning how to recover and customize your bash environment can be your next step to becoming a Linux server wizard."
+        }
+    ]
+}

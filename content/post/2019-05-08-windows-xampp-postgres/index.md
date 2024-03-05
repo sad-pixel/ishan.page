@@ -31,3 +31,5 @@ slug: 2019-05-08-windows-xampp-postgres
 ## 4. Wrapping up
 1. Restart Apache
 2. Adminer is now accessible [here](http://localhost/adminer.php)
+
+{{% read-next %}}

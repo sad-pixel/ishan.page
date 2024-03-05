@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2015-11-03-apache-php5",
+            "why": "Unlock the full potential of your limited-resource server by mastering these LAMP stack optimization techniques, ensuring your web hosting is as efficient as possible."
+        },
+        {
+            "slug": "post/2023-12-15-hugo-ipython-jupyter",
+            "why": "After mastering the integration of Postgres with XAMPP to enhance your local development setup, you might be intrigued by how I transformed my blogging workflow by embracing Jupyter notebooks, a move that could inspire you to streamline your own development and publishing processes."
+        },
+        {
+            "slug": "post/2023-06-20-facebook-graph-leads-between",
+            "why": "After mastering local development setup with Postgres and XAMPP, you might be eager to explore how to leverage APIs to enhance your projects, and this guide on fetching leads from Facebook using Python is a perfect next step!"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2023-06-24-docker-container-network-ip",
+            "why": "Unlock the power of your network by learning how to effortlessly identify and organize running Docker containers, just like you mastered mapping IP addresses to countries."
+        },
+        {
+            "slug": "post/2014-10-09-mpb-scraper-postmortem",
+            "why": "Uncover the trials and triumphs of data extraction as you journey from mapping IP geolocations to wrestling with web scraping challenges, learning from real-world tech adventures."
+        },
+        {
+            "slug": "post/2019-04-15-php-inline-lists",
+            "why": "Unravel the art of data manipulation further by exploring how PHP can streamline your list processing tasks, just as you've mastered geographical data analysis with Linux commands."
+        }
+    ]
+}

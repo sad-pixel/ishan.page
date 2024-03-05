@@ -79,3 +79,5 @@ What prompted me to write this was the analogous behaviour to the doctors that I
 * Database query takes time? Just cache it
 
 Yes, this is bad practice, but bad practice can't always be avoided due to organizational issues. Yes, doctors have their perfectly valid reasons for treating the symptoms (because the human body is difficult and it takes a lot of time to fully understand root causes)
+
+{{% read-next %}}

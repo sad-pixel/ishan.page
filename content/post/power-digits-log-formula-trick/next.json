@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2023-07-09-programming-with-the-grain",
+            "why": "Unlocking the secrets of efficient coding, this article takes you from the mathematical elegance of estimating digits in powers of two to mastering the art of programming in harmony with the underlying logic of computer systems and languages, enhancing both your problem-solving skills and code quality."
+        },
+        {
+            "slug": "post/2023-06-20-facebook-graph-leads-between",
+            "why": "Unlock the power of Python further by learning how to harness Facebook's vast data through its Graph API, a skill that complements your mathematical prowess with practical, real-world application."
+        },
+        {
+            "slug": "post/2021-09-18-pem-linux",
+            "why": "Unlock the power of secure, passwordless connections by learning how to create a 4096-bit RSA key pair, a perfect next step after mastering the mathematical elegance of estimating digits in powers of two."
+        }
+    ]
+}

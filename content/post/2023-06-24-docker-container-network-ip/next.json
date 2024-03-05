@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2023-06-22-docker-start-in-network",
+            "why": "Unlock the full potential of your Docker setup by learning how to not only list all running containers on your network but also how to effortlessly start new ones with customized settings!"
+        },
+        {
+            "slug": "post/2023-07-01-linux-ip-geolocation-list",
+            "why": "Unlock the power of IP analysis by learning how to map the global footprint of your Docker containers, enhancing your network insights and security strategies."
+        },
+        {
+            "slug": "post/2023-06-21-linux-use-multiple-git-profiles",
+            "why": "Just like you streamlined your Docker workflow with a zsh script, you can similarly optimize your GitHub setup across multiple accounts with some clever SSH configurations."
+        }
+    ]
+}

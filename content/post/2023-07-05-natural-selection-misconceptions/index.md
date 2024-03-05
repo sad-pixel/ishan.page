@@ -71,3 +71,5 @@ In the 1869 (5<sup>th</sup> Edition) of _On The Origin of Species_, Darwin chang
 Stephen Jay Gould (in Life is Beautiful) points out that the survival of a species at a certain time only reflects its fitness at that point in time, and not an absolute value of fitness, which doesn't exist: there are plenty of genes (or even species) that disappeared for a reason or another, but would be a better fit for today's conditions than the ones who survived, if they were still here. 
 
 Therefore seeing evolution as a continuous improvement of a gene pool towards evergrowing fitness is a misconception anyway. This is why eugenics and the people who bandy it about miss the point, or the randomness of it all. As well as the loooooong timelines and odd (but incredibly egoistic) idea that the most intelligent thing life has produced is somehow stupid compared to imaginary things us stupid things created in our minds.
+
+{{% read-next %}}

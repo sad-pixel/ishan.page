@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2023-06-24-docker-container-network-ip",
+            "why": "After learning how to kickstart your Docker containers, discovering how to neatly list and manage them can streamline your workflow even further."
+        },
+        {
+            "slug": "post/2019-05-08-windows-xampp-postgres",
+            "why": "After mastering Docker container setups, taking your local development environment to the next level with Postgres and XAMPP integration could be your next big win."
+        },
+        {
+            "slug": "post/2023-07-05-natural-selection-misconceptions",
+            "why": "Explore how misconceptions can shape our understanding and applications, from Docker networks to Darwin's theories, revealing the importance of clarity and accuracy in every field."
+        }
+    ]
+}

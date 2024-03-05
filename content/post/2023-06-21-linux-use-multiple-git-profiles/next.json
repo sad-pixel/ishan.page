@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2021-09-18-pem-linux",
+            "why": "Unlock the full potential of secure, passwordless connections by mastering the creation of a 4096-bit RSA key pair, a perfect next step after setting up your multiple GitHub accounts."
+        },
+        {
+            "slug": "post/2023-11-29-bashrc-oopsie-deleted",
+            "why": "After mastering multiple GitHub accounts with SSH keys, learning to tweak your .bashrc file could be your next step to becoming a Linux power user."
+        },
+        {
+            "slug": "post/2021-10-15-systemd-discord-notify",
+            "why": "After mastering multiple GitHub accounts with SSH keys, you'll love learning how to keep tabs on your services with Discord notifications, making your workflow smoother and more connected."
+        }
+    ]
+}

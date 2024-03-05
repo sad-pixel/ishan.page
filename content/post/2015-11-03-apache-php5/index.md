@@ -440,3 +440,5 @@ navigate to your domain in the browser and see that it's working correctly.
 
 ## Conclusion
 Now that you know how to install and optimize a LAMP stack, get cracking and create a great site that will be big enough to crash this setup!
+
+{{% read-next %}}

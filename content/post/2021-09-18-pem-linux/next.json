@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2023-06-21-linux-use-multiple-git-profiles",
+            "why": "After mastering the art of creating a secure 4096-bit RSA key, learning how to juggle multiple GitHub accounts with ease could be your next savvy move in streamlining your development workflow."
+        },
+        {
+            "slug": "post/2023-11-06-jq-by-example",
+            "why": "Unlock the power of JSON manipulation with jq, enhancing your SSH key management and deployment strategies by diving into real-world data handling scenarios."
+        },
+        {
+            "slug": "post/power-digits-log-formula-trick",
+            "why": "Unlock the secrets of your data's magnitude with a simple mathematical trick that complements your tech toolkit, just like mastering ssh-keygen enhanced your security practices."
+        }
+    ]
+}

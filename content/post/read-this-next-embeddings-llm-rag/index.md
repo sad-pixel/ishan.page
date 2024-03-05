@@ -199,13 +199,15 @@ Finally, now that I have the list of related posts, I'm going to put them in a `
 }
 ```
 
-Finally, I create a shortcode
+Finally, I create a shortcode to display the recommendations inside the post in `layouts/shortcodes/read-next.html`:
 
 ```
 {{ $dataFile := "next.json" }}
 {{ range .Page.Resources.Match $dataFile }}
 {{ $data := .Content | transform.Unmarshal }}
 # Read Next
+I'm running [an experiment](/blog/read-this-next-embeddings-llm-rag/) for better content recommendations. These are the 3 posts that are most likely to be interesting for you:
+
 {{ range $data.read_next }}
 {{ $page := site.GetPage .slug }}
 {{ if $page }}
@@ -218,3 +220,7 @@ Finally, I create a shortcode
 {{ end }}
 {{ end }}
 ```
+
+And here's the result:
+
+{{% read-next %}}

@@ -141,3 +141,4 @@ But it also reminded me that sometimes, the best tool for the job is not the one
 In tech, we often face problems that require us to think outside the box and use tools in creative or unconventional ways. That's why it's important to have a flexible and curious mindset that allows us to learn new skills and explore different solutions. 
 
 I hope you enjoyed reading this post. Do you have any stories of using tools in unexpected ways or finding solutions in surprising places? [Tell me all about it!](mailto:hello@ishan.page)
+{{% read-next %}}

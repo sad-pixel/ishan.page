@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2023-07-02-well-known",
+            "why": "Exploring the .well-known directory's vast applications can be a game-changer for you, especially if you're keen on optimizing web server functionalities, much like how you've learned to enhance service notifications with systemd for Discord."
+        },
+        {
+            "slug": "post/2023-06-22-docker-start-in-network",
+            "why": "If you're jazzed about streamlining your service notifications with Discord, this next piece on effortlessly spinning up Docker containers could be your next tech hack to master!"
+        },
+        {
+            "slug": "post/2023-03-08-wsl-time-drift",
+            "why": "Keep your development environment in perfect sync; after setting up Discord notifications for service status, ensure your WSL2 VM clock doesn't fall behind with a simple fix, avoiding potential timestamp and SSL headaches."
+        }
+    ]
+}

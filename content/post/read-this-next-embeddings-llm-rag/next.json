@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2023-12-15-hugo-ipython-jupyter",
+            "why": "Exploring how I embraced Jupyter notebooks for blogging could spark your curiosity about integrating cutting-edge tools into your own content creation process, just like the AI-driven recommendations system aims to revolutionize blog engagement."
+        },
+        {
+            "slug": "post/2023-07-04-addendum-webfinger",
+            "why": "Explore how Webfinger's API can streamline your blog's user experience by effortlessly connecting readers with authors' profiles, mirroring the personalized content recommendations you just read about."
+        },
+        {
+            "slug": "post/2023-06-20-facebook-graph-leads-between",
+            "why": "Unlock the power of Python for your projects by learning how to fetch data from Facebook Lead Ads, a skill that complements the AI-driven content recommendation techniques you just explored."
+        }
+    ]
+}

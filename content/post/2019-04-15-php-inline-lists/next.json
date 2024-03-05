@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2015-11-03-apache-php5",
+            "why": "Unlock the full potential of your VPS with these expert tips on fine-tuning your LAMP stack, ensuring your web projects run smoothly even on servers with limited resources."
+        },
+        {
+            "slug": "post/2023-12-07-jq-hammer-nails",
+            "why": "Exploring how I tackled HTML generation with jq might spark new ideas for your own projects, especially if you enjoy creative solutions in coding."
+        },
+        {
+            "slug": "post/2023-06-20-facebook-graph-leads-between",
+            "why": "Unlock the power of data retrieval from social media with a Python script, a perfect next step after mastering PHP list rendering techniques."
+        }
+    ]
+}

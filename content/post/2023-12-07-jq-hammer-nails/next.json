@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2023-11-06-jq-by-example",
+            "why": "After exploring the creative use of jq for HTML generation, you'll find the \"Ultimate Interactive JQ Guide\" a perfect next step to deepen your jq skills with hands-on examples and real-world applications."
+        },
+        {
+            "slug": "post/2023-12-15-hugo-ipython-jupyter",
+            "why": "Exploring unconventional tools can unlock new efficiencies in your workflow, much like how I found a novel way to use jq for HTML and another author creatively integrated Jupyter notebooks into their blogging process."
+        },
+        {
+            "slug": "post/2023-07-09-programming-with-the-grain",
+            "why": "Exploring how to bend tools to your will? The next article takes you deeper into the art of programming efficiently by aligning with the natural patterns of technology, much like using jq for HTML in unexpected ways."
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2023-07-26-use-the-flags-luke",
+            "why": "After tackling the technical hiccup of syncing VM clocks in WSL2, you'll appreciate the wisdom in learning from past mistakes to avoid future headaches, like the crucial need for update mechanisms and version control in software development."
+        },
+        {
+            "slug": "post/2021-09-18-pem-linux",
+            "why": "After fixing your WSL2 clock bug, securing your SSH connections with a robust 4096-bit RSA key is the next smart move to enhance your system's security and efficiency."
+        },
+        {
+            "slug": "post/2023-06-24-docker-container-network-ip",
+            "why": "After tackling WSL2's time-sync bug, you'll appreciate streamlining your Docker workflow with a handy zsh script to monitor your containers efficiently."
+        }
+    ]
+}

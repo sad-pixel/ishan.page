@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2023-12-07-jq-hammer-nails",
+            "why": "Exploring unconventional tools can unlock new potentials in your projects, just like how I found creative ways to streamline my blogging workflow and how using jq for HTML generation could inspire you to think outside the box in your own tech endeavors."
+        },
+        {
+            "slug": "post/2023-06-20-hello-world",
+            "why": "If you're intrigued by the idea of transforming your blogging workflow with tech, the next article's journey to revamp an online presence might spark new inspiration for your own projects."
+        },
+        {
+            "slug": "post/read-this-next-embeddings-llm-rag",
+            "why": "Unlock the next level of your blogging journey by exploring how AI can transform the way you connect with your audience, making your content discovery as innovative as your writing process."
+        }
+    ]
+}

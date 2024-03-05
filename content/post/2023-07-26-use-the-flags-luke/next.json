@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2014-09-07-gamedev-ideas",
+            "why": "Explore how a programmer's journey evolves from tackling technical challenges to creating unique game concepts that reflect on the quirks of development work."
+        },
+        {
+            "slug": "post/2023-03-08-wsl-time-drift",
+            "why": "After tackling the challenges of version control in your first project, discovering how to fix a sneaky bug in WSL2 that messes with time-sensitive operations could be your next tech lifesaver!"
+        },
+        {
+            "slug": "post/2019-05-08-windows-xampp-postgres",
+            "why": "After tackling the challenges of your first desktop application, learning how to seamlessly integrate Postgres with XAMPP could be your next step towards mastering local development environments and avoiding past pitfalls."
+        }
+    ]
+}

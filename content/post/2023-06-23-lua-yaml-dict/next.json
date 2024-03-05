@@ -1,0 +1,16 @@
+{
+    "read_next": [
+        {
+            "slug": "post/2023-12-07-jq-hammer-nails",
+            "why": "Exploring how I tackled HTML generation with jq might spark new ideas for you, especially if you enjoy learning about creative uses of tools outside their typical applications, similar to parsing YAML with Lua."
+        },
+        {
+            "slug": "post/2023-06-20-facebook-graph-leads-between",
+            "why": "Unlock the power of data handling across different languages by learning how to seamlessly integrate Facebook Lead Ads data into your Python projects, just like you managed YAML files in Lua."
+        },
+        {
+            "slug": "post/2019-05-08-windows-xampp-postgres",
+            "why": "After mastering YAML parsing in Lua, expanding your development environment with Postgres integration in XAMPP could be your next big leap in building robust applications."
+        }
+    ]
+}
