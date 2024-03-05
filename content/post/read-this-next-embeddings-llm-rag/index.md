@@ -19,7 +19,7 @@ But that's not what I wanted.
 
 Have you ever finished an article on AI ethics only to be recommended a generic post on "Top 10 AI Innovations"? It's informative, sure, but it misses the mark on continuing the nuanced conversation you were engaged in.
 
-I wanted to dig deeper. The goal was to create a recommendation that felt as if a friend, who knows your interests and preferences, was suggesting what you should read next- Related, but also having a wide range of topics. 
+I wanted to dig deeper. I wanted to create a recommendation that felt almost like a friend was suggesting what you should read next- Related, but also having a wide range of topics. 
 
 This required a system capable of understanding content at a near-human level and making connections between seemingly disparate topics based on underlying themes and ideas.
 
@@ -32,9 +32,6 @@ Text embeddings allow us to transform written content into numerical vectors, re
 For instance, an article on the ethical considerations of AI could lead you to a seemingly unrelated post on philosophy, connected by the underlying theme of ethics and technology.
 
 This is an application of the well known RAG (Retrieval Augmented Generation) pattern.
-
-The ultimate goal was clear: create a "Read This Next" feature that not only keeps you engaged with relevant content but also surprises and delights by uncovering hidden gems in my blog that you might not have found otherwise. 
-
 
 ## Summarizing Posts
 The process starts off when a summary is generated for each blog post using LangChain and OpenAI's GPT-4 model. 
@@ -96,7 +93,7 @@ print(summary["output_text"])
 
 The generated summaries are then processed through a text embedding model. This converts the summaries into a high-dimensional space where similar contents are positioned closer together, facilitating the comparison of thematic and semantic similarities between posts.
 
-These embeddings are stored in ChromaDB, a vector database optimized for fast similarity searches. By indexing the embeddings, we enable efficient retrieval of the most relevant posts based on their content similarity.
+These embeddings are stored in ChromaDB, a vector database optimized for fast similarity searches.
 
 ```python
 import json
