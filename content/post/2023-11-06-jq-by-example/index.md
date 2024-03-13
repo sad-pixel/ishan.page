@@ -6,7 +6,6 @@ tags: [jq, featured]
 date: 2023-11-06
 lastmod: 2023-11-29
 layout: "jq_post"
-weight: 1
 image: "numbers.jpg"
 categories: 
 - featured-articles
