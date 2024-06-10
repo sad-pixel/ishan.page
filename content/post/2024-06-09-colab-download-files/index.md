@@ -10,7 +10,7 @@ If you've ever worked on a project in Google Colab and tried to provide download
 
 So, why does this happen, and what can you do about it?
 
-#### The Problem with `FileLink` in Google Colab
+## The Problem with `FileLink` in Google Colab
 
 `FileLink` is a handy feature in Jupyter Notebooks that creates a hyperlink to a file stored in your notebook's environment. However, Google Colab runs your notebooks on remote servers, not on your local machine. When you use `FileLink` in Colab, the generated link points to `localhost:8080`, which is your local machine's loopback address. This doesn't make sense in a remote server context because your local machine has no idea where the Colab server is.
 
@@ -33,7 +33,7 @@ display(FileLink(result_file_path))
 
 When you run this code in Google Colab, the link it generates points to `localhost:8080`, which is not accessible from the Colab environment, making it impossible to download the file.
 
-#### The Button-Based Solution
+## The Button-Based Solution
 
 Instead of relying on `FileLink`, which doesn't work well in Google Colab, we can use buttons that trigger file downloads. Google Colab has built-in support for this through the `google.colab` library, making it easy to create buttons for downloading files.
 
