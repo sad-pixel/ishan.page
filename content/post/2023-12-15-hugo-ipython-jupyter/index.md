@@ -2,7 +2,7 @@
 title: "Blogging with Jupyter Notebooks in Hugo"
 date: 2023-12-15
 slug: 2023-12-15-hugo-ipython-jupyter
-tags: ["python", "hugo", "programming", "web", "jq"]
+tags: ["python", "hugo", "programming", "web", "jq", "jupyter"]
 image: "hugo_jupyter.png"
 description: "Fun Fact: The Notebooks are JSON Files"
 ---
