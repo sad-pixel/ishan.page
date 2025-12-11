@@ -5,7 +5,7 @@ date: 2025-12-09
 tags: ["postgres", "neon", "serverless", "database", "devlog"]
 ---
 
-I recently built a [SQL practice platform](https://dbms.ishan.page) for my DBMS course at [IITM BS Degree](/blog/jeeification). About 50-100 students were hitting it simultaneously during peak exam prep. I chose Neon as the backend database, mostly because I was curious about their serverless Postgres offering. Here's what I learned after a week of actual traffic.
+I recently built a [SQL practice platform](https://oppe.dev) for my DBMS course at [IITM BS Degree](/blog/jeeification). About 50-100 students were hitting it simultaneously during peak exam prep. I chose Neon as the backend database, mostly because I was curious about their serverless Postgres offering. Here's what I learned after a week of actual traffic.
 
 Let me be clear about what this actually tested: student queries don't hit Neon at all. Those run in WASM on the client side (which I'll write about in Part 2 because that setup was *wild*). Neon's job was simple: serve metadata like problem sets, some aggregate stats, and admin operations. This is basically the lightest possible database workload - maybe 2-3 queries per page load, all reads except when I manually added new problems through TablePlus.
 
@@ -115,4 +115,4 @@ So yeah, I'd probably use Neon again, but I'd probably reach for SQLite first. T
 
 ---
 
-*The platform is live at [dbms.ishan.page](https://dbms.ishan.page) if you want to check it out. Part 2 will cover the WASM SQL execution setup, why I went that route, and the cursed things I had to do to get Python in WASM to talk to a PGLite database running in the browser.*
+*The platform is live at [oppe.dev](https://oppe.dev) if you want to check it out. Part 2 will cover the WASM SQL execution setup, why I went that route, and the cursed things I had to do to get Python in WASM to talk to a PGLite database running in the browser.*
